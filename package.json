@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "comp2156 lab exercise",
   "main": "index.js",
+  "homepage": "https://comp2156aniket.github.io/COMP2156/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -18,15 +19,19 @@
     "gh-pages": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "travis": "^0.1.1",
     "web-vitals": "^2.1.4",
     "yarn": "^1.13.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
+      "not ie<=11",
       "not op_mini all"
     ],
     "development": [
